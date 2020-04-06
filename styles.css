@@ -25,6 +25,7 @@ body {
 #header-title {
   display: block;
   float: left;
+  margin-left: 40px;
 
   font-size: 20px;
   font-weight: bold;
@@ -37,6 +38,7 @@ body {
 #header-nav li {
   display: inline;
   padding-left: 20px;
+  margin-right: 30px;
 }
 .container {
   max-width: 1000px
@@ -55,9 +57,12 @@ body {
   color: white;
   text-transform: uppercase;
   letter-spacing: 0.1em;
+  margin-left: 50px;
+  margin-bottom: 20px
 }
 #footer p {
   color: white;
+  margin-left: 50px;
 }
 a {
   color: #1abc9c;
@@ -102,4 +107,8 @@ p {
 }
 .post-container:nth-child(even) {
   background-color: #f2f2f2;
+}
+* {
+  margin: 0;
+  padding: 0;
 }
